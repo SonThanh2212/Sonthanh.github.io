@@ -1,0 +1,392 @@
+/* CSS Document */
+.header{
+/*	background-color: rgba(255, 0, 0, 0.5);*/
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+    }
+.logo img{
+	width: 90%;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	padding: 0 20px;
+}
+.nav li a{
+	color: white;
+	text-decoration: none;
+}
+.nav li a:hover{
+	opacity: .8;
+}
+.banner{
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.banner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.content{
+	position: absolute;
+	top: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.content img{
+	width: 75%;
+}
+.content p{
+	margin-bottom: 30px;
+}
+.btn{
+	background: rgba( 255, 0, 0, 0.6 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+	color: white;
+	padding: 1.9rem 3rem;
+}
+
+.services{
+	padding: 100px;
+	background: rgb(24,42,59);
+background: linear-gradient(90deg, rgba(24,42,59,1) 0%, rgba(10,29,48,1) 50%, rgba(1,17,30,1) 100%);
+	width: 100%
+	}
+
+/*
+.main{
+	background: rgb(24,42,59);
+background: linear-gradient(90deg, rgba(24,42,59,1) 0%, rgba(10,29,48,1) 50%, rgba(1,17,30,1) 100%);
+	width: 100%
+}
+*/
+.main{
+	background: url("../img/Site-background-dark.webp");
+	
+	background-size: cover;
+}
+.main a{text-decoration: none }
+
+.services h1{
+/*	text-align: center;*/
+	color: #1f1f1f1;
+	padding:20px;
+	
+}
+.container0{
+	padding: 50px;
+}
+.feature img{
+/*
+            border-top-right-radius: 10%;
+            border-bottom-left-radius: 10%;
+			border-top-left-radius: 10%;
+			border-bottom-right-radius: 10%;
+*/
+	width: 325px;
+	height:220px;
+	padding: 0px
+}
+.MAP h1{text-align: end
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+	font-family: 'Anton', sans-serif;
+  color: #f2f2f2;
+  font-size: 45px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 0px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.box-sv h1{text-align: center}
+.container0 {text-align: center}
+.box-x{
+	background: rgb(24,42,59);
+background: linear-gradient(90deg, rgba(24,42,59,1) 0%, rgba(10,29,48,1) 50%, rgba(1,17,30,1) 100%);
+	width: 100%
+}
+
+.container p{
+	width: 80%;
+	padding: 20px
+}
+ 
+.box-x h1{
+	color: white;
+}
+
+
+.container1{
+	padding: 100px 0 0 0;
+}
+.container1 img{
+	width: 130%
+}
+.boxtt{padding: 0;
+	   margin: 0 auto;
+}
+
+	
+
+.box{
+	margin: 0 auto;
+	width: auto;
+}
+.container box8{
+	margin: 0;
+	display: flex;
+	align-items: center
+}
+.container box7{
+	margin: 0;
+	display: flex;
+	align-items: center
+}
+
+
+.table img{
+	width: 20%
+}
+.table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 45vh;
+}
+table,td,th{
+	border-collapse: collapse;
+	border-color:#A6A6A6;
+	text-align: center;
+	color: #1F1F1F;
+	background: #D8D8D8;
+}
+td,th{
+	padding: 10px 70px;
+}
+thead{
+	background: #B58889
+}
+
+
+.bott a{
+	text-decoration: none;
+}
+
+
+.end{
+	padding: 100px;
+background: url("../img/Site-background-dark.webp");
+	background-size: cover;
+}
+.end img{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	list-style: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.animation{
+	width: 640px;
+	height: 550px;
+	border: 1px;
+	margin: 50px auto;
+	position: relative;
+}
+.absolute{
+	position: absolute
+}
+.jett{
+	position: absolute;
+	bottom: 0;
+	width: 640px;
+	height: 1007px;
+}
+.jet{
+	width: 640px
+}
+.gio{
+	width: 640px;
+	-webkit-animation: spin 2s infinite  alternate;
+	animation: spin 1s infinite alternate;
+}
+.dao{
+	width: 640px;
+	 -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+
+.reyna img{right: 450px;
+			
+			
+	width: 62%
+}
+.rey{
+	width: 640px
+}
+.tatoo{
+	width: 640px;
+	
+}
+.fire{
+	width: 640px;
+		-webkit-animation: mover1 1s infinite  alternate;
+	animation: mover1 1s infinite alternate;
+}
+
+.raze img{left: 50px}
+
+.raz{
+	width: 640px
+}
+.boom{
+	width: 640px;
+	-webkit-animation: mover1 2s infinite  alternate;
+	animation: mover1 1s infinite alternate;
+}
+.gun{
+	width: 640px;
+	 -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+
+@-webkit-keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+@keyframes move1r {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+
+@-webkit-keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-2px); }
+}
+@keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-2px); }
+}
+
+
+@-webkit-keyframes spin {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes spin {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+
+.raze img{width: 62%}
+.jeet img{width: 62%}
